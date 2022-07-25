@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Convention center</title>
@@ -10,7 +11,132 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- header section starts -->
+    <header class=" ">
+        <!-- navbar stars -->
+        <nav class=" p-0 mb-5 navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container d-flex justify-content-between">
+
+                <div>
+                    <a class="navbar-brand" href="#">Abacus Convention Center</a>
+                </div>
+
+
+                <nav class=" navigation navbar navbar-expand-lg bg-white">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+    </header>
+    <!-- header section end -->
+
+    <!-- sliding section start -->
+    <section class="slider">
+        <div id="carouselExampleDark" class="carousel carousel slide carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/banner.png" class="d-block w-100 image" alt="...">
+                    <div class="carousel-caption mb-5  d-md-block">
+                        <h5 class="h3">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a class="btn btn-white bg-white" href="">Book Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/banner.png" class="d-block w-100 image" alt="...">
+                    <div class="carousel-caption mb-5  d-md-block">
+                        <h5 class="h3">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a class="btn btn-white bg-white" href="">Book Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner.png" class="d-block w-100 image" alt="...">
+                    <div class="carousel-caption mb-5  d-md-block">
+                        <h5 class="h3">First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a class="btn btn-white bg-white" href="">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- sliding section end -->
+
+    <!-- main section start -->
+    <main class="container mt-5">
+        <div class="row row-col-md-6">
+            <div class="col">
+                <img class="img img-fluid" src="images/wedding.png" alt="">
+            </div>
+            <div class="col d-flex align-items-center">
+                <div class="card border border-0">
+                    <div class="card-body">
+                        <h5 class="card-title h2">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="alert-box p-3 alertian shadow-lg alert alert-light alert-dismissible fade show border-start border-5 border-primary border-0"
+                    role="alert">
+                    <p class="mb-3"> <img class="gift" src="icons/Vector.svg" alt=""> <small>20% off on Next
+                            Booking</small></p>
+                    <button type="button" class="pb-3 btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- main section end-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

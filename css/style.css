@@ -1,0 +1,25 @@
+.slider {
+    margin-top: 60px !important;
+}
+
+.image {
+    height: 500px !important;
+}
+
+.alertian {
+    height: 50px !important;
+    width: 360px !important;
+    font-size: 14px !important;
+}
+
+
+.gift {
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.alert-box {
+    position: absolute !important;
+    margin-left: 190px;
+    background: block;
+}
